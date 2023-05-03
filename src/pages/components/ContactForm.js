@@ -5,8 +5,8 @@ export default function ContactForm() {
     return (
         <section id="contact-us">
             <div className="we-love">
-                <h1>We'd Love to Hear From You</h1>
-                <p>Looking to hire a world-className freelancer to get your project done professionally Let discuss transforming your vision into reality.</p>
+                <h1>We Love to Hear From You</h1>
+                <p>Looking to hire a world-class freelancer to get your project done professionally Let discuss transforming your vision into reality.</p>
             </div>
             <div className="container-fluid">
                 <div className="row">
