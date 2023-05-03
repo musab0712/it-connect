@@ -68,15 +68,16 @@ export default function NextProvide() {
                         </motion.div>
                     </div>
                     <div className="col">
-                        <Image
-                            src="/nextProvide.jpg"
-                            alt="Description of image"
-                            width={350}
-                            height={500}
-                            style={{ width: '100%', height: '500px' }}
-                            priority={true}
-                        // className="image"
-                        />
+                        <div className="image">
+                            <Image
+                                src="/choose-img.png"
+                                alt="Description of image"
+                                width={350}
+                                height={500}
+                                style={{ width: 'auto', height: 'auto' }}
+                                priority={true}
+                            />
+                        </div>
                     </div>
                 </div>
             </div>

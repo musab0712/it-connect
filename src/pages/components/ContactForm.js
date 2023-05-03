@@ -6,14 +6,14 @@ export default function ContactForm() {
         <section id="contact-us">
             <div className="we-love">
                 <h1>We'd Love to Hear From You</h1>
-                <p>Looking to hire a world-className freelancer to get your project done professionally? Let’s discuss transforming your vision into reality.</p>
+                <p>Looking to hire a world-className freelancer to get your project done professionally Let discuss transforming your vision into reality.</p>
             </div>
             <div className="container-fluid">
                 <div className="row">
                     <div className="col">
                         <div className="contact-us-img">
                             <Image src="/choose-img.png" alt="" width={350} height={400} />
-                            <h4>Still Need Help?</h4>
+                            <h4>Still Need Help...</h4>
                             <h5>Email ID: <span style={{ fontWeight: "bold" }}>hiredev@gmail.com</span></h5>
                             <h5>Call Now: <span style={{ fontWeight: "bold" }}>+91 - 1234567809</span></h5>
                         </div>

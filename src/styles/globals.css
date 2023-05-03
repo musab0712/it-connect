@@ -157,9 +157,8 @@
 }
 
 .image {
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
-    border-radius: 20px;
     width: 100%;
+    text-align: center;
 }
 
 .nextProvide-h1 {
