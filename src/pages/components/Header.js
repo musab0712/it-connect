@@ -1,22 +1,23 @@
+import Image from "next/image";
 import Link from "next/link";
 // navbar-light bg-light
 
 export default function Header() {
     return (
         <header id="my-navbar">
-            <nav className="navbar navbar-expand-lg">
+            <nav className="navbar navbar-dark navbar-expand-lg">
                 <div className="container-fluid">
-                    <Link className="navbar-brand" href="/">IT Connect</Link>
+                    <Link className="navbar-brand" href="/"><Image src='/logo.jpeg' width={120} height={60} alt="logo" priority={true} /></Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse " id="navbarNavAltMarkup">
                         <div className="navbar-nav">
                             <Link className="nav-link active" aria-current="page" href="/">Home</Link>
-                            <Link className="nav-link" href="/about">About</Link>
-                            <Link className="nav-link" href="/services">Services</Link>
-                            <Link className="nav-link" href="/portfolio">Portfolio</Link>
-                            <Link className="nav-link" href="/contact">Contact</Link>
+                            <Link className="nav-link active" href="/about">About</Link>
+                            <Link className="nav-link active" href="/services">Services</Link>
+                            <Link className="nav-link active" href="/portfolio">Portfolio</Link>
+                            <Link className="nav-link active" href="/contact">Contact</Link>
                         </div>
                     </div>
                 </div>

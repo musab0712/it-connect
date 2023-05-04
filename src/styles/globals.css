@@ -11,8 +11,11 @@
 /* Nav Bar */
 #my-navbar {
     padding: 0 8%;
-    background-color: #BAD7E9;
-    ;
+    background-color: #845EC2;
+}
+
+.navbar {
+    color: wheat;
 }
 
 .navbar-collapse {
@@ -80,8 +83,19 @@
 /* Hero Section */
 
 #HeroSection {
-    background-color: #95e2e2;
+    background-color: #845EC2;
+
     padding: 8%;
+    color: wheat;
+}
+
+.hero-btn {
+    background-color: wheat;
+}
+
+.hero-btn :hover {
+    color: wheat;
+    background-color: rgb(13, 126, 88);
 }
 
 .hero-title {
@@ -94,6 +108,15 @@
     width: 100%;
     font-size: 1.5rem;
     padding-bottom: 20px;
+}
+
+.herosection-img {
+    text-align: center;
+    justify-content: center;
+}
+
+.background {
+    position: fixed;
 }
 
 /* card section */
@@ -145,6 +168,10 @@
     text-align: center;
 }
 
+.provide-data h1 {
+    font-weight: bold;
+}
+
 
 /* Next Provide section */
 #nextProvide {
@@ -164,6 +191,7 @@
 .nextProvide-h1 {
     padding-top: 15px;
     padding-bottom: 25px;
+    font-weight: bold;
 }
 
 /* ProServices  section*/
@@ -221,12 +249,33 @@
     padding-bottom: 2%;
 }
 
+.we-love h1 {
+    font-size: 2.5rem;
+    padding-top: 2%;
+}
+
 .we-love p {
     font-size: 1.5rem;
     line-height: 1.5;
 }
 
+.contact-us-img h4 {
+    padding-top: 2%;
+    font-weight: bold;
+}
+
 footer {
-    background-color: #BAD7E9;
+    background-color: #845EC2;
     padding: 5% 8%;
+    color: wheat;
+}
+
+.footer-link {
+    color: wheat;
+    list-style: none;
+    text-decoration: none;
+}
+
+.social-link {
+    color: pink;
 }

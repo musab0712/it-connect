@@ -5,13 +5,13 @@ import { IoCheckmarkDoneCircle } from 'react-icons/io5';
 export default function Provide() {
     return (
         <section id="provide">
-            <div className="row row-cols-1 row-cols-md-2 g-2">
+            <div className="row row-cols-1 row-cols-sm-1 row-cols-md-2 g-2">
                 <div className="col">
                     <div className="provide-img">
                         <Image
                             src="/development.png"
                             alt="Description of image"
-                            width={350}
+                            width={320}
                             height={400}
                             priority={true}
 
