@@ -33,7 +33,7 @@ export default function Footer() {
                         {/* <h6 className="text-uppercase fw-bold mb-4">
                                 <i className="fas fa-gem me-3 text-secondary"></i>IT Connect India
                             </h6> */}
-                        <Image src='/logo.jpeg' width={100} height={50} alt="logo" priority={true} />
+                        <h1>IT<span className="connect">connect</span></h1>
                         <p>
                             Here you can use rows and columns to organize your footer content. Lorem ipsum
                             dolor sit amet, consectetur adipisicing elit.

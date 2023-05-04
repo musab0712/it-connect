@@ -31,6 +31,14 @@
     padding: 0 20px;
 }
 
+.connect {
+    color: aquamarine;
+}
+
+.brand {
+    font-weight: bold;
+}
+
 .nav-link {
     font-size: 1.3rem;
     margin-left: 20px;
