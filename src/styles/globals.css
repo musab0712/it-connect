@@ -92,9 +92,79 @@
 
 #HeroSection {
     background-color: #845EC2;
-
     padding: 8%;
     color: wheat;
+    position: relative;
+    overflow: hidden;
+}
+
+#HeroSection::before {
+    position: absolute;
+    content: url("../../public/bg-star.png");
+    /* background-image: url("../../public/bg-star.png"); */
+    right: 200px;
+    top: 200px;
+    z-index: 0;
+    animation: animationFramesOne 5s linear infinite;
+}
+
+#HeroSection::after {
+    position: absolute;
+    content: url("../../public/bg-1.png");
+    /* background-image: url("../../public/bg-star.png"); */
+    right: 200px;
+    top: 200px;
+    animation: moVebounce 5s linear infinite;
+}
+
+
+@keyframes moVebounce {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0)
+    }
+
+    50% {
+        -webkit-transform: translateY(50px);
+        transform: translateY(50px)
+    }
+
+    to {
+        -webkit-transform: translateY(0);
+        transform: translateY(0)
+    }
+}
+
+@keyframes animationFramesOne {
+    0% {
+        -webkit-transform: translate(0) rotate(0deg);
+        transform: translate(0) rotate(0deg)
+    }
+
+    20% {
+        -webkit-transform: translate(73px, -1px) rotate(36deg);
+        transform: translate(73px, -1px) rotate(36deg)
+    }
+
+    40% {
+        -webkit-transform: translate(141px, 72px) rotate(72deg);
+        transform: translate(141px, 72px) rotate(72deg)
+    }
+
+    60% {
+        -webkit-transform: translate(83px, 122px) rotate(108deg);
+        transform: translate(83px, 122px) rotate(108deg)
+    }
+
+    80% {
+        -webkit-transform: translate(-40px, 72px) rotate(144deg);
+        transform: translate(-40px, 72px) rotate(144deg)
+    }
+
+    to {
+        -webkit-transform: translate(0) rotate(0deg);
+        transform: translate(0) rotate(0deg)
+    }
 }
 
 .hero-btn {
