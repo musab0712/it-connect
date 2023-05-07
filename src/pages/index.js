@@ -9,6 +9,8 @@ import NextProvide from './components/NextProvide'
 import ProServices from './components/ProServices'
 import Testinomial from './components/Testinomial'
 import Company from './components/Company'
+import Business from './components/Business'
+import Industries from './components/Industries'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -27,6 +29,8 @@ export default function Home() {
       <Provide />
       <NextProvide />
       <ProServices />
+      <Business />
+      <Industries />
       <Testinomial />
       <Company />
       <Footer />

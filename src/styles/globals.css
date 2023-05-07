@@ -11,7 +11,7 @@
 /* Nav Bar */
 #my-navbar {
     padding: 0 8%;
-    background-color: #845EC2;
+    background-color: #02562f;
 }
 
 .navbar {
@@ -91,7 +91,7 @@
 /* Hero Section */
 
 #HeroSection {
-    background-color: #845EC2;
+    background-color: #02562f;
     padding: 8%;
     color: wheat;
     position: relative;
@@ -295,6 +295,78 @@
 .card-img {
     text-align: center;
     justify-content: center;
+}
+
+/* Business section */
+
+#business {
+    padding: 5% 8%;
+}
+
+.business-h1 {
+    padding-bottom: 25px;
+    font-weight: bold;
+}
+
+.business-card {
+    margin-bottom: 25px;
+}
+
+.business-box {
+    margin: 20px 0;
+}
+
+.business-left-data {
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    padding-top: 60px;
+    border-radius: 10px;
+}
+
+.business-bg1 {
+    background-color: aqua;
+}
+
+.business-bg2 {
+    background-color: #5f4d7c;
+}
+
+.business-bg3 {
+    background-color: rgb(141, 58, 134);
+}
+
+.business-bg4 {
+    background-color: rgb(60, 52, 161);
+}
+
+
+/* Industries section */
+
+#industries {
+    padding: 5% 8%;
+}
+
+.industries-h {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.industries-h h1 {
+    font-weight: bold;
+}
+
+.industires-data {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+.industires-data1 {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-bottom: 50px;
 }
 
 #company {

@@ -5,6 +5,7 @@ import Hero from "./components/Hero";
 import Provide from "./components/Provide";
 import Testinomial from "./components/Testinomial";
 import Company from "./components/Company";
+import Business from "./components/Business";
 
 export default function About() {
     return (
@@ -14,6 +15,7 @@ export default function About() {
             </Head>
             <Header />
             <Hero url='/female-web-designer.jpg' />
+            <Business />
             <Provide />
             <Testinomial />
             <Company />
