@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import ServicesBox from "./components/ServicesBox";
 import Hero from "./components/Hero";
 import Industries from "./components/Industries";
+import HeroOtherSec from "./components/HeroOtherSec";
 
 export default function Services() {
     return (
@@ -12,7 +13,8 @@ export default function Services() {
                 <title>IT Connect India</title>
             </Head>
             <Header />
-            <Hero url='/choose-img.png' />
+            {/* <Hero url='/choose-img.png' /> */}
+            <HeroOtherSec url='/choose-img.png' />
             <Industries />
             <ServicesBox />
             <div>Services</div>

@@ -12,6 +12,7 @@
 #my-navbar {
     padding: 0 8%;
     background-color: #02562f;
+
 }
 
 .navbar {
@@ -195,6 +196,28 @@
 
 .background {
     position: fixed;
+}
+
+/* heroOthetSec section */
+
+#heroOthetSec {
+    padding: 5% 8%;
+    background-color: #02562f;
+    width: 100%;
+    color: #f2fefe;
+}
+
+.heroSec-content {
+    padding-top: 60px;
+}
+
+.heroSec-content h1 {
+    font-weight: bold;
+}
+
+.heroOthetSec-btn {
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 /* card section */

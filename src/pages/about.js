@@ -6,6 +6,7 @@ import Provide from "./components/Provide";
 import Testinomial from "./components/Testinomial";
 import Company from "./components/Company";
 import Business from "./components/Business";
+import HeroOtherSec from "./components/HeroOtherSec";
 
 export default function About() {
     return (
@@ -14,7 +15,8 @@ export default function About() {
                 <title>IT Connect India</title>
             </Head>
             <Header />
-            <Hero url='/female-web-designer.jpg' />
+            {/* <Hero url='/female-web-designer.jpg' /> */}
+            <HeroOtherSec url='/offer1.png' />
             <Business />
             <Provide />
             <Testinomial />

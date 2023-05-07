@@ -51,17 +51,7 @@ export default function Industries() {
                 </div>
                 <div className="industires-data1">
                     <div className="row row-cols-1 row-cols-sm-1 row-cols-md-2 g-2">
-                        <div className="col">
-                            <div className="provide-img">
-                                <Image
-                                    src="/offer2.png"
-                                    alt="Description of image"
-                                    width={320}
-                                    height={350}
-                                    priority={true}
-                                />
-                            </div>
-                        </div>
+
                         <div className="col">
                             <div className="provide-data">
                                 <h1>Logistics and Transportation</h1>
@@ -82,6 +72,17 @@ export default function Industries() {
                                         <h5> <IoCheckmarkDoneCircle color="aqua" /> Support</h5>
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+                        <div className="col">
+                            <div className="provide-img">
+                                <Image
+                                    src="/offer2.png"
+                                    alt="Description of image"
+                                    width={320}
+                                    height={350}
+                                    priority={true}
+                                />
                             </div>
                         </div>
                     </div>
@@ -125,17 +126,7 @@ export default function Industries() {
                 </div>
                 <div className="industires-data1">
                     <div className="row row-cols-1 row-cols-sm-1 row-cols-md-2 g-2">
-                        <div className="col">
-                            <div className="provide-img">
-                                <Image
-                                    src="/offer4.png"
-                                    alt="Description of image"
-                                    width={320}
-                                    height={350}
-                                    priority={true}
-                                />
-                            </div>
-                        </div>
+
                         <div className="col">
                             <div className="provide-data">
                                 <h1>Manufacturing</h1>
@@ -156,6 +147,17 @@ export default function Industries() {
                                         <h5> <IoCheckmarkDoneCircle color="aqua" /> Multi-Vendor</h5>
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+                        <div className="col">
+                            <div className="provide-img">
+                                <Image
+                                    src="/offer4.png"
+                                    alt="Description of image"
+                                    width={320}
+                                    height={350}
+                                    priority={true}
+                                />
                             </div>
                         </div>
                     </div>

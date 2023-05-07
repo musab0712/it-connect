@@ -3,6 +3,7 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import Hero from './components/Hero'
 import PortfolioData from './components/PortfolioData'
+import HeroOtherSec from './components/HeroOtherSec'
 
 export default function portfolio() {
     return (
@@ -11,7 +12,8 @@ export default function portfolio() {
                 <title>IT Connect India</title>
             </Head>
             <Header />
-            <Hero url='/hero2.jpg' />
+            {/* <Hero url='/hero2.jpg' /> */}
+            <HeroOtherSec url='/offer2.png' />
             <PortfolioData />
             <Footer />
         </>
