@@ -18,7 +18,7 @@ export default function NextProvide() {
                             <div className="row g-0">
                                 <div className="col-md-2 nextProvide-icon">
                                     {/* <Image src="..." className="img-fluid rounded-start" alt="..."/> */}
-                                    <TbHexagonNumber1 color="blue" size={45} />
+                                    <TbHexagonNumber1 color="#02562f" size={45} />
                                 </div>
                                 <div className="col-md-10">
                                     <div className="card-body" >
@@ -37,7 +37,7 @@ export default function NextProvide() {
                             <div className="row g-0">
                                 <div className="col-md-2 nextProvide-icon">
                                     {/* <Image src="..." className="img-fluid rounded-start" alt="..."/> */}
-                                    <TbHexagonNumber2 color="blue" size={45} />
+                                    <TbHexagonNumber2 color="#02562f" size={45} />
                                 </div>
                                 <div className="col-md-10">
                                     <div className="card-body" >
@@ -56,7 +56,7 @@ export default function NextProvide() {
                             <div className="row g-0">
                                 <div className="col-md-2 nextProvide-icon">
                                     {/* <Image src="..." className="img-fluid rounded-start" alt="..."/> */}
-                                    <TbHexagonNumber3 color="blue" size={45} />
+                                    <TbHexagonNumber3 color="#02562f" size={45} />
                                 </div>
                                 <div className="col-md-10">
                                     <div className="card-body" >

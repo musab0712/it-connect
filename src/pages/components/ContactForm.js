@@ -13,7 +13,7 @@ export default function ContactForm() {
                     <div className="col">
                         <div className="contact-us-img">
                             <Image src="/choose-img.png" alt="" width={350} height={400} />
-                            <h4>Still Need Help...</h4>
+                            <h3>Still Need Help...</h3>
                             <h5>Email ID: <span style={{ fontWeight: "bold" }}>hiredev@gmail.com</span></h5>
                             <h5>Call Now: <span style={{ fontWeight: "bold" }}>+91 - 1234567809</span></h5>
                         </div>
