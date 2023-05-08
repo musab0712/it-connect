@@ -35,7 +35,7 @@ export default function Home() {
       <Testinomial />
       <Company />
       <Footer />
-      {/* <WhatsAppButton phone="1234567890" text="Hello, I have a question for you!" /> */}
+      <WhatsAppButton phone="1234567890" text="Hello, I have a question for you!" />
     </>
   )
 }
