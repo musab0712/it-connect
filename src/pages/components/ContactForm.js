@@ -14,8 +14,8 @@ export default function ContactForm() {
                         <div className="contact-us-img">
                             <Image src="/choose-img.png" alt="" width={350} height={400} />
                             <h3>Still Need Help...</h3>
-                            <h5>Email ID: <span style={{ fontWeight: "bold" }}>hiredev@gmail.com</span></h5>
-                            <h5>Call Now: <span style={{ fontWeight: "bold" }}>+91 - 1234567809</span></h5>
+                            <h5>Email ID: <span style={{ fontWeight: "bold" }}>info@itconnectindia.com</span></h5>
+                            <h5>Call Now: <span style={{ fontWeight: "bold" }}>+91 - 7352817229</span></h5>
                         </div>
                     </div>
                     <div className="col">
@@ -42,7 +42,7 @@ export default function ContactForm() {
                                     <textarea name="msg" className="form-control" id="inputMessage" placeholder="Please Enter Message" cols="" rows="6"></textarea>
                                 </div>
                                 <div className="col-12">
-                                    <button type="submit" className="btn btn-primary" name="submit"> Submit </button>
+                                    <button type="submit" className="button" name="submit"> Submit </button>
                                 </div>
                             </form>
                         </div>

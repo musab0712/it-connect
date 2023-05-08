@@ -61,7 +61,7 @@ export default function NextProvide() {
                                 <div className="col-md-10">
                                     <div className="card-body" >
                                         <h5 className="card-title">Support</h5>
-                                        <p className="card-text">Post-deployment, we provide support so that you and your team are comfortable in managing the platform.</p>
+                                        <p className="card-text">Post-deployment, we provide three months support so that you and your team are comfortable in managing the platform.</p>
                                     </div>
                                 </div>
                             </div>

@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
-import { AiFillTwitterCircle, AiFillInstagram, AiFillFacebook } from 'react-icons/ai'
+import { AiFillTwitterCircle, AiFillInstagram, AiFillFacebook, AiFillMail, AiFillLinkedin } from 'react-icons/ai'
+import { BsFillTelephoneOutboundFill } from "react-icons/bs";
+import { IoLocationSharp } from "react-icons/io5";
 
 export default function Footer() {
     return (
@@ -33,43 +35,50 @@ export default function Footer() {
                         {/* <h6 className="text-uppercase fw-bold mb-4">
                                 <i className="fas fa-gem me-3 text-secondary"></i>IT Connect India
                             </h6> */}
-                        <h1>IT<span className="connect">connect</span></h1>
+                        <h1>IT Connect India</h1>
                         <p>
                             Here you can use rows and columns to organize your footer content. Lorem ipsum
                             dolor sit amet, consectetur adipisicing elit.
                         </p>
-                        <div className="social-link">
+                        {/* <div className="social-link">
+                            <Link className="social-link" href='/'> <AiFillLinkedin size={30} /> </Link>
                             <Link className="social-link" href='/'> <AiFillTwitterCircle size={30} /> </Link>
                             <Link className="social-link" href='/'> <AiFillInstagram size={30} /> </Link>
                             <Link className="social-link" href='/'> <AiFillFacebook size={30} /> </Link>
-                        </div>
+                        </div> */}
                     </div>
 
 
 
                     <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
 
-                        <h6 className="text-uppercase fw-bold mb-4">
+                        <h6 className="text-footer fw-bold mb-4">
                             Services
                         </h6>
                         <p>
-                            <Link href="/" className="footer-link">Custome Services</Link>
+                            <Link href="/" className="footer-link">Mobile Application Devlopment</Link>
                         </p>
                         <p>
-                            <Link href="/" className="footer-link">Web Devlopment</Link>
+                            <Link href="/" className="footer-link">Website Devlopment</Link>
                         </p>
                         <p>
-                            <Link href="/" className="footer-link">App Devlopment</Link>
+                            <Link href="/" className="footer-link">Custom Software Development</Link>
                         </p>
                         <p>
-                            <Link href="/" className="footer-link">Clone App</Link>
+                            <Link href="/" className="footer-link">Dedicated Resourses</Link>
+                        </p>
+                        <p>
+                            <Link href="/" className="footer-link">UI/UX Design</Link>
+                        </p>
+                        <p>
+                            <Link href="/" className="footer-link">SEO</Link>
                         </p>
                     </div>
 
 
 
                     <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                        <h6 className="text-uppercase fw-bold mb-4">
+                        <h6 className="text-footer fw-bold mb-4">
                             Company
                         </h6>
                         <p>
@@ -84,20 +93,33 @@ export default function Footer() {
                         <p>
                             <Link href="/portfolio" className="footer-link">Portfolio</Link>
                         </p>
+                        <p>
+                            <Link href="/portfolio" className="footer-link">FAQ</Link>
+                        </p>
+                        <p>
+                            <Link href="/portfolio" className="footer-link">Privacy Policy</Link>
+                        </p>
+                        <p>
+                            <Link href="/portfolio" className="footer-link">Terms and Condition</Link>
+                        </p>
                     </div>
 
 
 
                     <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
 
-                        <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
-                        <p><i className="fas fa-home me-3 text-secondary"></i> New Delhi, India </p>
-                        <p>
-                            <i className="fas fa-envelope me-3 text-secondary"></i>
-                            contact@itconnect.com
+                        <h6 className="text-footer fw-bold mb-4">Contact</h6>
+                        <p > <BsFillTelephoneOutboundFill size={20} /> <span className="footerAdr-icon">Phone </span></p>
+                        <p className="footerAdr-p">+ 91-7352817229</p>
+                        <p className="footerAdr-p">+ 91-9625715568</p>
+                        <p > <AiFillMail size={25} /> <span className="footerAdr-icon">Email </span>   </p>
+                        <p className="footerAdr-p">
+                            info@itconnectindia.com
                         </p>
-                        <p><i className="fas fa-phone me-3 text-secondary"></i> + 91 2345678899</p>
-                        <p><i className="fas fa-print me-3 text-secondary"></i> + 91 2345678956</p>
+                        <p >
+                            <IoLocationSharp size={25} /><span className=" footerAdr-icon">Address </span>
+                        </p>
+                        <p className="footerAdr-p">FA-20, AFE-1, Okhla, New Delhi</p>
                     </div>
                 </div>
 

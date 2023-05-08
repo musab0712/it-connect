@@ -9,9 +9,8 @@
 
 /* Nav Bar */
 #my-navbar {
-    padding: 2% 8%;
+    padding: 1% 8%;
     background-color: #02562f;
-
 }
 
 .navbar {
@@ -50,54 +49,15 @@
     font-weight: bold;
 }
 
-@media (max-width: 768px) {
-    h1 {
-        font-size: 20px;
-    }
-}
-
-@media (max-width: 480px) {
-    #my-navbar {
-        padding: 1%;
-    }
-
-    #HeroSection {
-        padding: 1%;
-        width: 100%;
-    }
-
-    .hero-text {
-        width: 100%;
-        text-align: center;
-        font-size: small;
-    }
-
-    .hero-title {
-        width: 100%;
-        text-align: center;
-        padding: 1px;
-    }
-
-    .hero-title h1 {
-        font-size: 10px;
-    }
-
-
-    .heroSection-content {
-        width: 100%;
-        text-align: center;
-    }
-}
-
-
 /* Hero Section */
 
 #HeroSection {
     background-color: #02562f;
-    padding: 8%;
+    padding: 6% 8%;
     color: white;
     position: relative;
     overflow: hidden;
+    z-index: 0;
 }
 
 #HeroSection::before {
@@ -116,13 +76,14 @@
     /* background-image: url("../../public/bg-star.png"); */
     right: 200px;
     top: 200px;
+    z-index: 0;
     animation: moVebounce 3s linear infinite;
 }
 
-.heroSection-content {
+/* .heroSection-content {
     position: relative;
-    /* overflow: hidden; */
-}
+    overflow: hidden;
+} */
 
 .heroSection-content::before {
     position: absolute;
@@ -130,6 +91,7 @@
     /* background-image: url("../../public/bg-star.png"); */
     right: 200px;
     top: 200px;
+    z-index: 0;
     animation: moveBubble 6s linear infinite;
 }
 
@@ -268,7 +230,7 @@
 }
 
 .hero-text {
-    width: 70%;
+    width: 60%;
     font-size: 1.5rem;
     padding-bottom: 20px;
 }
@@ -278,9 +240,9 @@
     justify-content: center;
 }
 
-.background {
-    position: fixed;
-}
+/* .heroOthetSec-btn {
+    position: absolute;
+} */
 
 @media (max-width: 820) {
 
@@ -319,6 +281,26 @@
 
 }
 
+#link {
+    position: initial;
+}
+
+/* heroContact section */
+
+#heroContact {
+    width: 100%;
+    padding: 8% 0%;
+    background-color: #02562f;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    background-image: url("../../public/contact-1.jpg");
+}
+
+.heroContact-content h1 {
+    font-weight: bold;
+}
+
 /* heroOthetSec section */
 
 #heroOthetSec {
@@ -339,6 +321,10 @@
 .heroOthetSec-btn {
     padding-top: 25px;
     padding-bottom: 25px;
+}
+
+.heroOthetSec-btn {
+    position: static;
 }
 
 /* card section */
@@ -379,11 +365,12 @@ border-radius: 50%;
 } */
 
 
+
 /* provide section */
 
 #provide {
     background-color: #f2fefe;
-    padding: 5% 8%;
+    padding: 8%;
 }
 
 .provide-img {
@@ -395,6 +382,29 @@ border-radius: 50%;
     font-weight: bold;
 }
 
+.button {
+    padding: 10px 20px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px #999;
+    position: static;
+}
+
+.button:hover {
+    background-color: #3e8e41
+}
+
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
 
 /* Next Provide section */
 #nextProvide {
@@ -429,13 +439,25 @@ border-radius: 50%;
     padding: 5% 0;
 }
 
+.service-card {
+    padding-bottom: 100px;
+}
+
+/* Testinomial sectiomn */
 #testinomial {
-    padding: 5% 8%;
+    padding: 8% 8%;
+    background-color: #02562f;
 }
 
 .testinomial-text {
     text-align: center;
     padding-bottom: 30px;
+    color: white;
+    font-weight: bold
+}
+
+.testinomial-card {
+    padding: 15% 0%;
 }
 
 .card-img {
@@ -511,7 +533,7 @@ border-radius: 50%;
 /* Industries section */
 
 #industries {
-    padding: 5% 8%;
+    padding: 5% 15%;
 }
 
 .industries-h {
@@ -591,7 +613,7 @@ border-radius: 50%;
 #footer {
     background-color: #02562f;
     padding: 5% 8%;
-    color: wheat;
+    color: white;
     position: relative;
     overflow: hidden;
 }
@@ -664,10 +686,51 @@ border-radius: 50%;
     }
 }
 
+.footerAdr-p {
+    padding-left: 40px;
+}
+
+.footerAdr-icon {
+    padding-left: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* WhatsAppButton */
+
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out;
+}
+
+.whatsapp-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+
 .footer-link {
-    color: wheat;
+    color: white;
     list-style: none;
     text-decoration: none;
+}
+
+.text-footer {
+    font-size: 25px;
+    text-decoration: underline;
 }
 
 .social-link {

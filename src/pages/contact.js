@@ -3,6 +3,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import ContactForm from "./components/ContactForm";
+import HeroCantact from "./components/HeroCantact";
 
 export default function Contact() {
     return (
@@ -11,7 +12,8 @@ export default function Contact() {
                 <title>IT Connect India</title>
             </Head>
             <Header />
-            <Hero url='/contact2.jpg' />
+            <Hero url='/contact-1.jpg' />
+            {/* <HeroCantact /> */}
             <ContactForm />
             <Footer />
         </>

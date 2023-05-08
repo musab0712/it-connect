@@ -11,6 +11,7 @@ import Testinomial from './components/Testinomial'
 import Company from './components/Company'
 import Business from './components/Business'
 import Industries from './components/Industries'
+import WhatsAppButton from './components/WhatsAppButton'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -25,8 +26,8 @@ export default function Home() {
       </Head>
       <Header />
       <HeroSection />
-      <CardSection />
       <Provide />
+      <CardSection />
       <NextProvide />
       <ProServices />
       <Business />
@@ -34,6 +35,7 @@ export default function Home() {
       <Testinomial />
       <Company />
       <Footer />
+      <WhatsAppButton phone="1234567890" text="Hello, I have a question for you!" />
     </>
   )
 }

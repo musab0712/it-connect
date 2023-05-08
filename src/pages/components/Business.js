@@ -10,7 +10,7 @@ export default function Business() {
                         whileTap={{ scale: 0.9 }}>
                         <div className="card-body" >
                             <h5 className="card-title">Our Mission</h5>
-                            <p className="card-text">Our Mission is seeing businesses growing with our skills & efforts, Which makes us more happy is that a business which was associated with us and shows a growth that makes us more motivated to do so.</p>
+                            <p className="card-text">Our Mission is to provide exceptional IT services that help businesses achive their goals by delivering customized technology solutions. We are commited to staying ahead of industry trends, providing cost-effective solutions, and buliding lasting relationships with our clients.</p>
                         </div>
                     </motion.div>
                     <motion.div className="card"
@@ -28,7 +28,7 @@ export default function Business() {
                             whileHover={{ scale: 1.1 }}
                             whileTap={{ scale: 0.9 }}>
                             <div className="business-left-data business-bg1">
-                                <h2>50+</h2>
+                                <h2>20+</h2>
                                 <h6>Project Completed</h6>
                             </div>
                         </motion.div>
@@ -46,7 +46,7 @@ export default function Business() {
                             whileHover={{ scale: 1.1 }}
                             whileTap={{ scale: 0.9 }}>
                             <div className="business-left-data business-bg3">
-                                <h2>15+</h2>
+                                <h2>10+</h2>
                                 <h6>Team Members</h6>
                             </div>
                         </motion.div>

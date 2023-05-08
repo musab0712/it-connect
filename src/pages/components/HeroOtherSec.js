@@ -11,7 +11,9 @@ export default function HeroOtherSec({ url }) {
                         <h1>We Love to Hear From You</h1>
                         <h3>Book Your Free Consultaion Now</h3>
                         <div className="heroOthetSec-btn">
-                            <Link href='/contact'><button type="button" className="btn btn-lg btn-outline-info">Get Connect</button></Link>
+                            <Link href='/contact'>
+                                <button type="button" /*className="btn btn-lg btn-outline-info"*/ className="button">Get Connect</button>
+                            </Link>
                         </div>
 
                     </div>

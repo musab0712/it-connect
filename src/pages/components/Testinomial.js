@@ -11,44 +11,34 @@ const data = [
     {
         id: 1,
         username: 'Musab Hassan',
+        position: 'Digital Marketing',
         testinomial: 'Our websites and apps are highly secure and we use the latest encryption techniques to secure the flow of data'
     },
     {
         id: 2,
-        username: 'Rehman Alam',
+        username: 'Jyoti Yadav',
+        position: 'Business Women',
         testinomial: 'Our websites and apps are highly secure and we use the latest encryption techniques to secure the flow of data'
     },
+
     {
         id: 3,
         username: 'Mohd Asad',
+        position: 'Founder and CEO at ABC',
         testinomial: 'Our websites and apps are highly secure and we use the latest encryption techniques to secure the flow of data'
     },
     {
         id: 4,
         username: 'Rohit Kumar',
+        position: 'Founder of ABC',
         testinomial: 'Our websites and apps are highly secure and we use the latest encryption techniques to secure the flow of data'
     },
     {
         id: 5,
-        username: 'Md Arman',
-        testinomial: 'Our websites and apps are highly secure and we use the latest encryption techniques to secure the flow of data'
-    },
-    {
-        id: 6,
-        username: 'Mohd Asad',
-        testinomial: 'Our websites and apps are highly secure and we use the latest encryption techniques to secure the flow of data'
-    },
-    {
-        id: 7,
-        username: 'Rohit Kumar',
-        testinomial: 'Our websites and apps are highly secure and we use the latest encryption techniques to secure the flow of data'
-    },
-    {
-        id: 8,
-        username: 'Md Arman',
+        username: 'Rehman Alam',
+        position: 'Business Owner',
         testinomial: 'Our websites and apps are highly secure and we use the latest encryption techniques to secure the flow of data'
     }
-
 ]
 
 export default function Testinomial() {
@@ -95,7 +85,7 @@ export default function Testinomial() {
                             <SwiperSlide key={user.id} className='slide'>
 
                                 <motion.div
-                                    className="card"
+                                    className="card testinomial-card"
                                     initial={{ opacity: 0 }}
                                     animate={{ opacity: 3 }}
                                     transition={{ duration: 4 }}
@@ -105,6 +95,7 @@ export default function Testinomial() {
                                     </div>
                                     <div className="card-body cardSection-body">
                                         <h5 className="card-title">{user.username}</h5>
+                                        <p>{user.position}</p>
                                         <p className="card-text">{user.testinomial}</p>
                                     </div>
                                 </motion.div>
