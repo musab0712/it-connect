@@ -17,8 +17,8 @@ export default function About() {
             <Header />
             {/* <Hero url='/female-web-designer.jpg' /> */}
             <HeroOtherSec url='/offer1.png' />
-            <Business />
             <Provide />
+            <Business />
             <Testinomial />
             <Company />
             <Footer />
