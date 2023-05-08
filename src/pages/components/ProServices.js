@@ -123,7 +123,7 @@ export default function ProServices() {
                                 <div className="col-md-10">
                                     <div className="card-body service-card">
                                         <h5 className="card-title">SEO</h5>
-                                        <p className="card-text">SEO is the practice of optimizing a website's content, structure, and technical aspects to increase visibility and rank higher in search engine results pages, driving organic traffic.</p>
+                                        <p className="card-text">SEO is the process of optimizing a website to increase its visibility and ranking in search engine results pages. SEO services can include keyword research, on-page optimization, link building, content creation, and more. These services aim to improve website traffic and online visibility for businesses.</p>
                                     </div>
                                 </div>
                             </div>
