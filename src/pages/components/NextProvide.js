@@ -72,10 +72,11 @@ export default function NextProvide() {
                             <Image
                                 src="/choose-img.png"
                                 alt="Description of image"
-                                width={320}
+                                width={310}
                                 height={500}
                                 style={{ width: 'auto', height: 'auto' }}
                                 priority={true}
+                                className="indutry-img"
                             />
                         </div>
                     </div>

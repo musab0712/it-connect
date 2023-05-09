@@ -19,9 +19,11 @@ export default function Industries() {
                                 <Image
                                     src="/offer1.png"
                                     alt="Description of image"
-                                    width={320}
-                                    height={350}
+                                    width={300}
+                                    height={400}
+                                    style={{ width: 'auto', height: 'auto' }}
                                     priority={true}
+                                    className="indutry-img"
                                 />
                             </div>
                         </div>
@@ -79,9 +81,11 @@ export default function Industries() {
                                 <Image
                                     src="/offer2.png"
                                     alt="Description of image"
-                                    width={320}
-                                    height={350}
+                                    width={300}
+                                    height={400}
+                                    style={{ width: 'auto', height: 'auto' }}
                                     priority={true}
+                                    className="indutry-img"
                                 />
                             </div>
                         </div>
@@ -94,9 +98,11 @@ export default function Industries() {
                                 <Image
                                     src="/offer3.png"
                                     alt="Description of image"
-                                    width={320}
-                                    height={350}
+                                    width={300}
+                                    height={400}
+                                    style={{ width: 'auto', height: 'auto' }}
                                     priority={true}
+                                    className="indutry-img"
                                 />
                             </div>
                         </div>
@@ -154,9 +160,11 @@ export default function Industries() {
                                 <Image
                                     src="/offer4.png"
                                     alt="Description of image"
-                                    width={320}
-                                    height={350}
+                                    width={300}
+                                    height={400}
+                                    style={{ width: 'auto', height: 'auto' }}
                                     priority={true}
+                                    className="indutry-img"
                                 />
                             </div>
                         </div>
