@@ -4,7 +4,7 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-    font-family: "ubuntu";
+    font-family: "system-ui";
 }
 
 /* Nav Bar */
@@ -230,7 +230,7 @@
 }
 
 .hero-text {
-    width: 60%;
+    width: 70%;
     font-size: 20px;
     padding-bottom: 20px;
 }
@@ -534,12 +534,13 @@ border-radius: 50%;
 }
 
 #company {
-    padding: 5% 8%;
+    padding: 10% 8%;
 }
 
 .company-h {
     text-align: center;
     font-weight: bold;
+    padding-bottom: 50px;
 }
 
 #portfolioData {
