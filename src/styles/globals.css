@@ -66,7 +66,7 @@
     /* background-image: url("../../public/bg-star.png"); */
     right: 200px;
     top: 200px;
-    z-index: 0;
+    z-index: -1;
     animation: animationFramesOne 8s linear infinite;
 }
 
@@ -76,7 +76,7 @@
     /* background-image: url("../../public/bg-star.png"); */
     right: 200px;
     top: 200px;
-    z-index: 0;
+    z-index: -1;
     animation: moVebounce 3s linear infinite;
 }
 
@@ -394,6 +394,7 @@ border-radius: 50%;
     border-radius: 15px;
     box-shadow: 0 5px #999;
     position: static;
+    z-index: 2;
 }
 
 .button:hover {
@@ -616,24 +617,32 @@ border-radius: 50%;
     color: white;
     position: relative;
     overflow: hidden;
+    z-index: 0;
 }
 
 #footer::before {
+    /* content: ""; */
+    display: block;
     position: absolute;
     content: url("../../public/bg-star.png");
     /* background-image: url("../../public/bg-star.png"); */
+    /* background-size: cover; */
     right: 200px;
     top: 200px;
-    z-index: 0;
+    z-index: -1;
     animation: animationFramesOne 8s linear infinite;
 }
 
 #footer::after {
+    /* content: ""; */
+    display: block;
     position: absolute;
     content: url("../../public/bg-1.png");
-    /* background-image: url("../../public/bg-star.png"); */
+    /* background-image: url("../../public/bg-star.png");
+    background-size: cover; */
     right: 200px;
     top: 200px;
+    z-index: -1;
     animation: moVebounce 3s linear infinite;
 }
 
@@ -735,4 +744,21 @@ border-radius: 50%;
 
 .social-link {
     color: pink;
+}
+
+/* Terms & Condition */
+#termsCondition {
+    padding: 5% 8%;
+}
+
+.terms-content h1 {
+    font-weight: bold;
+}
+
+.terms-content p {
+    font-size: 18px;
+}
+
+#privacy {
+    padding: 5% 8%;
 }

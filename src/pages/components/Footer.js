@@ -55,22 +55,22 @@ export default function Footer() {
                             Services
                         </h6>
                         <p>
-                            <Link href="/" className="footer-link">Mobile Application Devlopment</Link>
+                            <Link href="/contact" className="footer-link">Mobile Application Devlopment</Link>
                         </p>
                         <p>
-                            <Link href="/" className="footer-link">Website Devlopment</Link>
+                            <Link href="/contact" className="footer-link">Website Devlopment</Link>
                         </p>
                         <p>
-                            <Link href="/" className="footer-link">Custom Software Development</Link>
+                            <Link href="/contact" className="footer-link">Custom Software Development</Link>
                         </p>
                         <p>
-                            <Link href="/" className="footer-link">Dedicated Resourses</Link>
+                            <Link href="/contact" className="footer-link">Dedicated Resourses</Link>
                         </p>
                         <p>
-                            <Link href="/" className="footer-link">UI/UX Design</Link>
+                            <Link href="/contact" className="footer-link">UI/UX Design</Link>
                         </p>
                         <p>
-                            <Link href="/" className="footer-link">SEO</Link>
+                            <Link href="/contact" className="footer-link">SEO</Link>
                         </p>
                     </div>
 
@@ -93,13 +93,13 @@ export default function Footer() {
                             <Link href="/portfolio" className="footer-link">Portfolio</Link>
                         </p>
                         <p>
-                            <Link href="/portfolio" className="footer-link">FAQ</Link>
+                            <Link href="/faq" className="footer-link">FAQ</Link>
                         </p>
                         <p>
-                            <Link href="/portfolio" className="footer-link">Privacy Policy</Link>
+                            <Link href="/privacy" className="footer-link">Privacy Policy</Link>
                         </p>
                         <p>
-                            <Link href="/portfolio" className="footer-link">Terms and Condition</Link>
+                            <Link href="/terms-condition" className="footer-link">Terms and Condition</Link>
                         </p>
                     </div>
 
