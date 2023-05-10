@@ -904,4 +904,8 @@ border-radius: 50%;
     .faq-img {
         padding: 1%;
     }
+
+    .herosecimg {
+        height: 200px;
+    }
 }
