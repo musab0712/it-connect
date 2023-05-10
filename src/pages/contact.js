@@ -12,8 +12,8 @@ export default function Contact() {
                 <title>IT Connect India</title>
             </Head>
             <Header />
-            {/* <Hero url='/contact-1.jpg' /> */}
-            <HeroCantact />
+            <Hero url='/msg.jpg' />
+            {/* <HeroCantact /> */}
             <ContactForm />
             <Footer />
         </>

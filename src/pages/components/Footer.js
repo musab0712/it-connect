@@ -35,7 +35,10 @@ export default function Footer() {
                         {/* <h6 className="text-uppercase fw-bold mb-4">
                                 <i className="fas fa-gem me-3 text-secondary"></i>IT Connect India
                             </h6> */}
-                        <h1>IT Connect</h1>
+                        {/* <h1>IT Connect</h1> */}
+                        <div className="footer-logo">
+                            <Image src='/logoTest.png' width={220} height={70} alt="logo img" />
+                        </div>
                         <p>
                             Our mission is to provide exceptional IT services that help businesses achive their goals by delivering customized technology solutions. We are commited to staying ahead of industry trends, providing cost-effective solutions, and buliding lasting relationships with our clients.
                         </p>
@@ -58,7 +61,7 @@ export default function Footer() {
                             <Link href="/contact" className="footer-link">Mobile Application Devlopment</Link>
                         </p>
                         <p>
-                            <Link href="/contact" className="footer-link">Website Devlopment</Link>
+                            <Link href="/webdev" className="footer-link">Website Devlopment</Link>
                         </p>
                         <p>
                             <Link href="/contact" className="footer-link">Custom Software Development</Link>

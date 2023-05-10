@@ -7,7 +7,10 @@ export default function Header() {
         <header id="my-navbar">
             <nav className="navbar navbar-dark navbar-expand-lg">
                 <div className="container-fluid">
-                    <Link className="navbar-brand" href="/"><h1 className="brand">IT Connect India</h1></Link>
+                    <Link className="navbar-brand" href="/">
+                        {/* <h1 className="brand">IT Connect India</h1> */}
+                        <Image src='/logoTest.png' width={220} height={70} alt="logo img" />
+                    </Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>

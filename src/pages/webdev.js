@@ -1,22 +1,19 @@
-import React from 'react'
-import FAQ from './components/FAQ'
 import Head from 'next/head'
 import Header from './components/Header'
-import Hero from './components/Hero'
 import Footer from './components/Footer'
-import FaqForm from './components/FaqForm'
+import Hero from './components/Hero'
+import Devlopement from './components/Devlopement'
 
-export default function faq() {
+export default function webdev() {
     return (
         <>
             <Head>
                 <title>IT Connect India</title>
             </Head>
             <Header />
-            <Hero url='/conatct-8.png' />
+            <Hero url='/contact-1.jpg' />
             {/* <HeroCantact /> */}
-            <FAQ />
-            <FaqForm />
+            <Devlopement />
             <Footer />
         </>
     )

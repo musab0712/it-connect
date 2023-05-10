@@ -28,7 +28,7 @@ export default function ContactForm() {
     //     } catch (error) {
     //         console.error('An error occurred', error);
     //     }
-
+    // };
     const handleSubmit = async (e) => {
         e.preventDefault();
     };
