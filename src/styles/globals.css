@@ -782,6 +782,32 @@ border-radius: 50%;
     padding: 5% 8%;
 }
 
+/* FAQ */
+
+#faq {
+    padding: 0% 8%;
+    padding-top: 8%;
+}
+
+.faq-h1 {
+    padding-bottom: 30px;
+}
+
+.faq-content {
+    margin-bottom: 30px;
+}
+
+.ask-q {
+    text-align: center;
+}
+
+.faq-a {
+    font-size: 20px;
+}
+
+.faq-img {
+    padding-left: 150px;
+}
 
 @media (max-width: 820) {
 
@@ -849,4 +875,7 @@ border-radius: 50%;
         padding-left: 0%;
     }
 
+    .faq-img {
+        padding: 1%;
+    }
 }

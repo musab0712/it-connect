@@ -10,10 +10,10 @@ export default function PrivacyPolicy() {
                 <p>If you upload images to the website, you should avoid uploading images with embedded location data (EXIF GPS) included. Visitors to the website can download and extract any location data from images on the website.</p>
                 <h1>Contact forms</h1>
                 <p>
-                    Cookies :-
+                    Cookies:-
                 </p>
                 <p>
-                    If you leave a comment on our site you may opt-in to saving your name, email address and website in cookies. These are for your convenience so that you do not have to fill in your details again when you leave another comment. These cookies will last for one year.
+                    When leaving a comment on our site, you may choose to save your name, email, and website in cookies for convenience. These last for a year. If you visit our login page, a temporary cookie determines if your browser accepts cookies, which is discarded upon closing. Logging in saves login and screen display choices, with login cookies lasting for two days, and screen options for a year. A post ID cookie is saved when editing or publishing an article, which expires in a day.
                 </p>
                 <p>If you visit our login page, we will set a temporary cookie to determine if your browser accepts cookies. This cookie contains no personal data and is discarded when you close your browser.</p>
                 <p>When you log in, we will also set up several cookies to save your login information and your screen display choices. Login cookies last for two days, and screen options cookies last for a year. If you select “Remember Me”, your login will persist for two weeks. If you log out of your account, the login cookies will be removed.</p>
