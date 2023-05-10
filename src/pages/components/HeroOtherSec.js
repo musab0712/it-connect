@@ -20,7 +20,7 @@ export default function HeroOtherSec({ url }) {
                 </div>
                 <div className="col">
                     <div className="heroSec-img">
-                        <Image src={url} width={350} height={350} alt='hero image' priority />
+                        <Image src={url} width={310} height={350} alt='hero image' priority />
                     </div>
                 </div>
             </div>

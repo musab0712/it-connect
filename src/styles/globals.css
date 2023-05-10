@@ -780,12 +780,15 @@ border-radius: 50%;
         justify-content: center;
     }
 
-    #provide {
+    #provide,
+    #industries,
+    #portfolioData {
         padding: 5% 2%;
     }
 
     #proServices,
-    #nextProvide {
+    #nextProvide,
+    #business {
         padding: 5% 1%;
     }
 
