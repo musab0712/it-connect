@@ -17,9 +17,9 @@
     color: wheat;
 }
 
-/* .navbar-collapse {
+.navbar-collapse {
     padding-left: 30%;
-} */
+}
 
 .navbar-brand {
     font-size: 2.5rem;
@@ -844,4 +844,9 @@ border-radius: 50%;
         text-align: center;
         padding: 1%;
     }
+
+    .navbar-collapse {
+        padding-left: 0%;
+    }
+
 }
