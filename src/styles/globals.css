@@ -17,9 +17,9 @@
     color: wheat;
 }
 
-.navbar-collapse {
+/* .navbar-collapse {
     padding-left: 30%;
-}
+} */
 
 .navbar-brand {
     font-size: 2.5rem;
@@ -60,7 +60,9 @@
     z-index: 0;
 }
 
-#HeroSection::before {
+#HeroSection::before,
+#heroContact::before,
+#heroOthetSec::before {
     position: absolute;
     content: url("../../public/bg-star.png");
     /* background-image: url("../../public/bg-star.png"); */
@@ -70,7 +72,9 @@
     animation: animationFramesOne 8s linear infinite;
 }
 
-#HeroSection::after {
+#HeroSection::after,
+#heroContact::after,
+#heroOthetSec::after {
     position: absolute;
     content: url("../../public/bg-1.png");
     /* background-image: url("../../public/bg-star.png"); */
@@ -85,7 +89,9 @@
     overflow: hidden;
 } */
 
-.heroSection-content::before {
+.heroSection-content::before,
+.heroContact-content::before,
+.heroSec-content::before {
     position: absolute;
     content: url("../../public/animate1.png");
     /* background-image: url("../../public/bg-star.png"); */
@@ -95,7 +101,9 @@
     animation: moveBubble 6s linear infinite;
 }
 
-.heroSection-content::after {
+.heroSection-content::after,
+.heroContact-content::after,
+.heroSec-content::after {
     position: absolute;
     content: url("../../public/animate2.png");
     /* background-image: url("../../public/bg-star.png"); */
@@ -254,13 +262,16 @@
 
 #heroContact {
     width: 100%;
-    padding: 8% 0%;
+    padding: 12% 8%;
     background-color: #02562f;
     color: white;
     text-align: center;
     justify-content: center;
-    background-image: url("../../public/contact-1.jpg");
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
 }
+
 
 .heroContact-content h1 {
     font-weight: bold;
@@ -273,6 +284,8 @@
     background-color: #02562f;
     width: 100%;
     color: #f2fefe;
+    position: relative;
+    z-index: 0;
 }
 
 .heroSec-content {
@@ -288,9 +301,13 @@
     padding-bottom: 25px;
 }
 
-.heroOthetSec-btn {
-    position: static;
+.heroSec-img {
+    padding-left: 150px;
 }
+
+/* .heroOthetSec-btn {
+    position: static;
+} */
 
 /* card section */
 
@@ -547,6 +564,32 @@ border-radius: 50%;
     padding: 5% 8%;
 }
 
+.portfolio-img-ani {
+    z-index: 0;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    justify-content: center;
+}
+
+.portfolio-img-ani::before {
+    position: absolute;
+    content: url(../../public/team-shape.png);
+    z-index: 1;
+}
+
+.port-img {
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+.port-img1 {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+
 #servicesBox {
     padding: 5% 8%;
 }
@@ -748,6 +791,11 @@ border-radius: 50%;
 }
 
 @media (max-width: 480px) {
+    #footer {
+        padding: 0% 5%;
+        text-align: left;
+    }
+
     #my-navbar {
         padding: 1%;
     }
@@ -792,4 +840,8 @@ border-radius: 50%;
         padding: 5% 1%;
     }
 
+    .heroSec-img {
+        text-align: center;
+        padding: 1%;
+    }
 }

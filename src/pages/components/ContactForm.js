@@ -1,12 +1,43 @@
 import Image from 'next/image'
-import React from 'react'
+import { useState } from 'react';
 
 export default function ContactForm() {
+    // const [name, setName] = useState('');
+    // const [email, setEmail] = useState('');
+    // const [number, setNumber] = useState('');
+    // const [subject, setSubject] = useState('');
+    // const [msg, setMsg] = useState('');
+
+    // const handleSubmit = async (e) => {
+    //     e.preventDefault();
+
+    //     try {
+    //         const response = await fetch('/api/posts', {
+    //             method: 'POST',
+    //             headers: {
+    //                 'Content-Type': 'application/json',
+    //             },
+    //             body: JSON.stringify({ name, email, number, subject, msg }),
+    //         });
+
+    //         if (response.ok) {
+    //             console.log('Post created successfully');
+    //         } else {
+    //             console.error('Failed to create post');
+    //         }
+    //     } catch (error) {
+    //         console.error('An error occurred', error);
+    //     }
+
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+    };
+
     return (
         <section id="contact-us">
             <div className="we-love">
                 <h1>We Love to Hear From You</h1>
-                <p>Looking to hire a world-class freelancer to get your project done professionally Let discuss transforming your vision into reality.</p>
+                <p>Looking to hire world class developer to get your project done professionally Let discuss transforming your vision into reality.</p>
             </div>
             <div className="container-fluid">
                 <div className="row">
@@ -20,7 +51,7 @@ export default function ContactForm() {
                     </div>
                     <div className="col">
                         <div className="contact-us-form">
-                            <form className="row g-3" action="/contact" method="post">
+                            <form onSubmit={handleSubmit} className="row g-3" >
                                 <div className="col-12">
                                     <label htmlFor="inputName" className="form-label">Name</label>
                                     <input type="text" className="form-control" id="inputName" name="name" placeholder="Please Enter Your Name" />
@@ -39,7 +70,7 @@ export default function ContactForm() {
                                 </div>
                                 <div className="col-12">
                                     <label htmlFor="inputMessage" className="form-label">Message</label>
-                                    <textarea name="msg" className="form-control" id="inputMessage" placeholder="Please Enter Message" cols="" rows="6"></textarea>
+                                    <textarea name="msg" className="form-control" id="inputMessage" placeholder="Please Enter Message" cols="" rows="6" />
                                 </div>
                                 <div className="col-12">
                                     <button type="submit" className="button" name="submit"> Submit </button>

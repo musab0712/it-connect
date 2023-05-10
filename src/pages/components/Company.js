@@ -76,21 +76,28 @@ export default function Company() {
                     <SwiperSlide>
                         <div className="col">
                             <div>
-                                <Image src='/a6.png' width={100} height={100} alt='compant img' />
+                                <Image src='/a9.png' width={100} height={100} alt='compant img' />
                             </div>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="col">
                             <div>
-                                <Image src='/a7.png' width={100} height={100} alt='compant img' />
+                                <Image src='/a12.png' width={100} height={100} alt='compant img' />
                             </div>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="col">
                             <div>
-                                <Image src='/a8.png' width={100} height={100} alt='compant img' />
+                                <Image src='/a13.png' width={100} height={100} alt='compant img' />
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="col">
+                            <div>
+                                <Image src='/a14.png' width={100} height={100} alt='compant img' />
                             </div>
                         </div>
                     </SwiperSlide>
