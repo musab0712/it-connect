@@ -15,8 +15,8 @@ export default function About() {
                 <title>IT Connect India</title>
             </Head>
             <Header />
-            {/* <Hero url='/female-web-designer.jpg' /> */}
-            <HeroOtherSec url='/offer1.png' />
+            <Hero url='/about-img.png' />
+            {/* <HeroOtherSec url='/offer1.png' /> */}
             <Provide />
             <Business />
             <Testinomial />

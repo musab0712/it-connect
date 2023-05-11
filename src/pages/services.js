@@ -13,8 +13,8 @@ export default function Services() {
                 <title>IT Connect India</title>
             </Head>
             <Header />
-            {/* <Hero url='/choose-img.png' /> */}
-            <HeroOtherSec url='/choose-img.png' />
+            <Hero url='/service-img.jpg' />
+            {/* <HeroOtherSec url='/choose-img.png' /> */}
             <Industries />
             <ServicesBox />
             <div>Services</div>

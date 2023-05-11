@@ -908,4 +908,16 @@ border-radius: 50%;
     .herosecimg {
         height: 200px;
     }
+
+    #portfolioData {
+        padding: 10% 1%;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .portfolio-img-ani {
+        text-align: center;
+        justify-content: center;
+        padding-left: 100px;
+    }
 }

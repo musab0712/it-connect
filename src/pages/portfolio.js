@@ -12,8 +12,8 @@ export default function portfolio() {
                 <title>IT Connect India</title>
             </Head>
             <Header />
-            {/* <Hero url='/hero2.jpg' /> */}
-            <HeroOtherSec url='/offer2.png' />
+            <Hero url='/portfolio-img.png' />
+            {/* <HeroOtherSec url='/offer2.png' /> */}
             <PortfolioData />
             <Footer />
         </>
