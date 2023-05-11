@@ -2,54 +2,35 @@ import Image from "next/image";
 import { useState } from "react";
 
 export default function ContactForm() {
-    // const [name, setName] = useState('');
-    // const [email, setEmail] = useState('');
-    // const [number, setNumber] = useState('');
-    // const [subject, setSubject] = useState('');
-    // const [msg, setMsg] = useState('');
 
     const [formValues, setFormValues] = useState({
         name: "",
         email: "",
-        number: "",
+        num: "",
         subject: "",
         msg: ""
     })
 
-    // const handleSubmit = async (e) => {
-    //     e.preventDefault();
-
-    //     try {
-    //         const response = await fetch('/api/posts', {
-    //             method: 'POST',
-    //             headers: {
-    //                 'Content-Type': 'application/json',
-    //             },
-    //             body: JSON.stringify({ name, email, number, subject, msg }),
-    //         });
-
-    //         if (response.ok) {
-    //             console.log('Post created successfully');
-    //         } else {
-    //             console.error('Failed to create post');
-    //         }
-    //     } catch (error) {
-    //         console.error('An error occurred', error);
-    //     }
+    const handleInputChange = (e) => {
+        const { name, value } = e.target;
+        setFormValues((prevFormValues) => ({
+            ...prevFormValues,
+            [name]: value
+        }));
+    };
 
     const handleSubmit = async (e) => {
-        e.preventDefault();
-
 
         let body = JSON.stringify(formValues)
         console.log("first", body);
 
-        fetch('/api/posts', {
+        // await fetch('http://localhost:3000/api/posts', {
+        await fetch('/api/posts', {
             method: 'POST',
             body: JSON.stringify({
                 name: formValues.name,
                 email: formValues.email,
-                number: Number(formValues.number),
+                num: formValues.num,
                 subject: formValues.subject,
                 msg: formValues.msg,
             }),
@@ -69,7 +50,7 @@ export default function ContactForm() {
         }).catch(function (error) {
             console.warn('Something went wrong.', error);
         });
-
+        e.preventDefault();
     };
 
     return (
@@ -112,6 +93,8 @@ export default function ContactForm() {
                                         className="form-control"
                                         id="inputName"
                                         name="name"
+                                        value={formValues.name}
+                                        //onChange={handleInputChange}
                                         onChange={(e) => setFormValues({
                                             ...formValues,
                                             name: e.target.value
@@ -127,7 +110,9 @@ export default function ContactForm() {
                                         type="email"
                                         className="form-control"
                                         id="inputEmail4"
-                                        name="email4"
+                                        name="email"
+                                        value={formValues.email}
+                                        //onChange={handleInputChange}
                                         placeholder="Please Enter Mail Id"
                                         onChange={(e) => setFormValues({
                                             ...formValues,
@@ -145,9 +130,11 @@ export default function ContactForm() {
                                         id="inputPhoneNum"
                                         name="phoneNum"
                                         placeholder="Enter Phone Number"
+                                        value={formValues.phoneNum}
+                                        // onChange={handleInputChange}
                                         onChange={(e) => setFormValues({
                                             ...formValues,
-                                            number: Number(e.target.value)
+                                            num: e.target.value
                                         })}
                                     />
                                 </div>
@@ -160,6 +147,8 @@ export default function ContactForm() {
                                         className="form-control"
                                         id="inputSubject"
                                         name="subject"
+                                        value={formValues.subject}
+                                        // onChange={handleInputChange}
                                         placeholder="Please Enter Subject"
                                         size=""
                                         onChange={(e) => setFormValues({
@@ -179,6 +168,8 @@ export default function ContactForm() {
                                         placeholder="Please Enter Message"
                                         cols=""
                                         rows="6"
+                                        value={formValues.msg}
+                                        //  onChange={handleInputChange}
                                         onChange={(e) => setFormValues({
                                             ...formValues,
                                             msg
