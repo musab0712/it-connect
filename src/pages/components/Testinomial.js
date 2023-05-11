@@ -10,34 +10,28 @@ import Image from 'next/image';
 const data = [
     {
         id: 1,
-        username: 'Musab Hassan',
-        position: 'Digital Marketing',
-        testinomial: 'Our websites and apps are highly secure and we use the latest encryption techniques to secure the flow of data'
-    },
-    {
-        id: 2,
-        username: 'Jyoti Yadav',
-        position: 'Business Women',
-        testinomial: 'Our websites and apps are highly secure and we use the latest encryption techniques to secure the flow of data'
+        username: 'Ben Williams',
+        position: 'BW Photography',
+        testinomial: 'They are driven by passion and do not leave any stone unterned when it comes to innovation. Helped a lot in rebranding and achieving the KPI needed.'
     },
 
     {
+        id: 2,
+        username: 'Anurag Goel',
+        position: 'Purple Panchi',
+        testinomial: 'We are in fashion domain and wanted peculiar designs for our compaign, but thanks to your dervelopers for carefully understanding our brand image.'
+    },
+    {
         id: 3,
-        username: 'Mohd Asad',
-        position: 'Founder and CEO at ABC',
-        testinomial: 'Our websites and apps are highly secure and we use the latest encryption techniques to secure the flow of data'
+        username: 'Peyton Amderson',
+        position: 'Detox Tea ',
+        testinomial: 'IT Connect India has been instrumental for our branding, development, SEO and Marketing Services.'
     },
     {
         id: 4,
-        username: 'Rohit Kumar',
-        position: 'Founder of ABC',
-        testinomial: 'Our websites and apps are highly secure and we use the latest encryption techniques to secure the flow of data'
-    },
-    {
-        id: 5,
-        username: 'Rehman Alam',
-        position: 'Business Owner',
-        testinomial: 'Our websites and apps are highly secure and we use the latest encryption techniques to secure the flow of data'
+        username: 'Kumar Kashyap',
+        position: 'Xtage Labs',
+        testinomial: 'People at IT Coneect India have are proficient in Android Development and Hybrid Development. Sincere and Hardworking team.  '
     }
 ]
 
