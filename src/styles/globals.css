@@ -859,6 +859,13 @@ border-radius: 50%;
     padding-bottom: 30px;
 }
 
+
+
+.dev-img {
+    width: 600px;
+    height: 450px;
+}
+
 @media (max-width: 820) {
 
     #my-navbar {
@@ -943,5 +950,12 @@ border-radius: 50%;
         text-align: center;
         justify-content: center;
         padding-left: 100px;
+    }
+
+    .dev-img {
+        text-align: center;
+        justify-content: center;
+        width: 300px;
+        height: 250px;
     }
 }
