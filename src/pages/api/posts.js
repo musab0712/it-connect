@@ -5,7 +5,7 @@ connectDB();
 
 export default async function handler(req, res) {
     if (req.method === 'POST') {
-        const { name, email, number, subject, msg } = req.body;
+        const { name, email, number, subject, msg } = req;
 
         try {
             const newPost = new Post({ name, email, number, subject, msg });

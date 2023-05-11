@@ -8,6 +8,6 @@ const postSchema = new mongoose.Schema({
     msg: { type: String, required: true },
 });
 
-const Post = mongoose.model('Post') || mongoose.model('Post', postSchema);
+const Post = mongoose.model('Post', postSchema);
 
 export default Post;
