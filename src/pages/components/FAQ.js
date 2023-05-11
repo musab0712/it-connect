@@ -31,6 +31,8 @@ const FAQ = () => {
         setActiveIndex((prevIndex) => (prevIndex === index ? null : index));
     };
 
+
+
     return (
         <section id='faq'>
             <div className='faq-h1'>

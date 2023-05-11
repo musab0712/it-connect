@@ -58,22 +58,22 @@ export default function Footer() {
                             Services
                         </h6>
                         <p>
-                            <Link href="/contact" className="footer-link">Mobile Application Devlopment</Link>
+                            <Link href="/appdev" className="footer-link">Mobile Application Devlopment</Link>
                         </p>
                         <p>
                             <Link href="/webdev" className="footer-link">Website Devlopment</Link>
                         </p>
                         <p>
-                            <Link href="/contact" className="footer-link">Custom Software Development</Link>
+                            <Link href="/customsoft" className="footer-link">Custom Software Development</Link>
                         </p>
                         <p>
-                            <Link href="/contact" className="footer-link">Dedicated Resourses</Link>
+                            <Link href="/dedicated" className="footer-link">Dedicated Resourses</Link>
                         </p>
                         <p>
-                            <Link href="/contact" className="footer-link">UI/UX Design</Link>
+                            <Link href="/uiux" className="footer-link">UI/UX Design</Link>
                         </p>
                         <p>
-                            <Link href="/contact" className="footer-link">SEO</Link>
+                            <Link href="/seo" className="footer-link">SEO</Link>
                         </p>
                     </div>
 

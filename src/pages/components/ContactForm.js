@@ -11,14 +11,6 @@ export default function ContactForm() {
         msg: ""
     })
 
-    const handleInputChange = (e) => {
-        const { name, value } = e.target;
-        setFormValues((prevFormValues) => ({
-            ...prevFormValues,
-            [name]: value
-        }));
-    };
-
     const handleSubmit = async (e) => {
 
         let body = JSON.stringify(formValues)

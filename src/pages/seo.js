@@ -4,18 +4,18 @@ import Footer from './components/Footer'
 import Hero from './components/Hero'
 import Devlopement from './components/Devlopement'
 
-export default function webdev() {
+export default function dedicated() {
     return (
         <>
             <Head>
                 <title>IT Connect India</title>
             </Head>
             <Header />
-            <Hero url='/contact-7.jpeg' />
+            <Hero url='/adv-img.png' />
             {/* <HeroCantact /> */}
             <Devlopement
-                title='Website development'
-                content='Website development is needed to establish an online presence and provide information about a business, organization, or individual.The basic step for this digital transformation to take place is to get a professional website developed for your business.'
+                title='SEO'
+                content='SEO is the process of optimizing a website to increase its visibility and ranking in search engine results pages. SEO services can include keyword research, on-page optimization, link building, content creation, and more. These services aim to improve website traffic and online visibility for businesses.'
             />
             <Footer />
         </>
