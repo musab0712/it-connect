@@ -7,7 +7,7 @@ import Footer from './components/Footer'
 import FaqForm from './components/FaqForm'
 import WhatsAppButton from './components/WhatsAppButton'
 
-export default function faq() {
+export default function Faq() {
     return (
         <>
             <Head>
