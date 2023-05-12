@@ -13,7 +13,7 @@ export default function privacy() {
                 <title>IT Connect India</title>
             </Head>
             <Header />
-            <Hero url='/contact-1.jpg' />
+            <Hero url='/conatct-8.png' />
             {/* <HeroCantact /> */}
             <PrivacyPolicy />
             <Footer />

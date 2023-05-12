@@ -13,7 +13,7 @@ export default function faq() {
                 <title>IT Connect India</title>
             </Head>
             <Header />
-            <Hero url='/conatct-8.png' />
+            <Hero url='/contact-7.jpeg' />
             {/* <HeroCantact /> */}
             <FAQ />
             <FaqForm />

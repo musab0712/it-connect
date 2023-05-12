@@ -12,7 +12,7 @@ export default function termscondition() {
                 <title>IT Connect India</title>
             </Head>
             <Header />
-            <Hero url='/contact-1.jpg' />
+            <Hero url='/conatct-8.png' />
             {/* <HeroCantact /> */}
             <TermsCondition />
             <Footer />
