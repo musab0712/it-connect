@@ -882,6 +882,15 @@ border-radius: 50%;
     }
 }
 
+@media (max-width: 370) {
+    .dev-img {
+        width: 320px;
+        height: 450px;
+    }
+
+
+}
+
 @media (max-width: 480px) {
     #footer {
         padding: 0% 5%;
