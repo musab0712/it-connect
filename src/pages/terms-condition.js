@@ -4,7 +4,6 @@ import Head from 'next/head'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import Hero from './components/Hero'
-import WhatsAppButton from './components/WhatsAppButton'
 
 export default function termscondition() {
     return (
@@ -17,7 +16,6 @@ export default function termscondition() {
             {/* <HeroCantact /> */}
             <TermsCondition />
             <Footer />
-            <WhatsAppButton phone="+917352817229" text="Hello, I have a question for you!" />
         </>
     )
 }

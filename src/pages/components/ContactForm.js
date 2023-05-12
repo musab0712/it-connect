@@ -59,7 +59,7 @@ export default function ContactForm() {
                 <div className="row">
                     <div className="col">
                         <div className="contact-us-img">
-                            <Image src="/choose-img.png" alt="" width={320} height={400} />
+                            <Image src="/choose-img.png" alt="" width={350} height={400} />
                             <h3>Still Need Help...</h3>
                             <h5>
                                 Email ID:{" "}

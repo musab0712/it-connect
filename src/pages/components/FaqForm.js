@@ -99,7 +99,7 @@ export default function FaqForm() {
                     </div>
                     <div className="col">
                         <div className="contact-us-img faq-img">
-                            <Image src="/choose-img.png" alt="" width={320} height={400} />
+                            <Image src="/choose-img.png" alt="" width={350} height={400} />
                             <h3>Still Need Help...</h3>
                             <h5>Email ID: <span style={{ fontWeight: "bold" }}>info@itconnectindia.com</span></h5>
                             <h5>Call Now: <span style={{ fontWeight: "bold" }}>+91 - 7352817229</span></h5>

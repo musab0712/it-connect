@@ -18,7 +18,6 @@ export default function dedicated() {
                 content='SEO is the process of optimizing a website to increase its visibility and ranking in search engine results pages. SEO services can include keyword research, on-page optimization, link building, content creation, and more. These services aim to improve website traffic and online visibility for businesses.'
             />
             <Footer />
-            <WhatsAppButton phone="+917352817229" text="Hello, I have a question for you!" />
         </>
     )
 }

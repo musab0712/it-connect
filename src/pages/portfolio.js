@@ -4,7 +4,6 @@ import Footer from './components/Footer'
 import Hero from './components/Hero'
 import PortfolioData from './components/PortfolioData'
 import HeroOtherSec from './components/HeroOtherSec'
-import WhatsAppButton from './components/WhatsAppButton'
 
 export default function portfolio() {
     return (
@@ -17,7 +16,6 @@ export default function portfolio() {
             {/* <HeroOtherSec url='/offer2.png' /> */}
             <PortfolioData />
             <Footer />
-            <WhatsAppButton phone="+917352817229" text="Hello, I have a question for you!" />
         </>
     )
 }

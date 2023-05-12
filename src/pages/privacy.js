@@ -17,7 +17,6 @@ export default function privacy() {
             {/* <HeroCantact /> */}
             <PrivacyPolicy />
             <Footer />
-            <WhatsAppButton phone="+917352817229" text="Hello, I have a question for you!" />
         </>
     )
 }

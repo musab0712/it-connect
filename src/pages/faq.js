@@ -5,7 +5,6 @@ import Header from './components/Header'
 import Hero from './components/Hero'
 import Footer from './components/Footer'
 import FaqForm from './components/FaqForm'
-import WhatsAppButton from './components/WhatsAppButton'
 
 export default function faq() {
     return (
@@ -19,7 +18,6 @@ export default function faq() {
             <FAQ />
             <FaqForm />
             <Footer />
-            <WhatsAppButton phone="+917352817229" text="Hello, I have a question for you!" />
         </>
     )
 }
