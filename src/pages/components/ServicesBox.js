@@ -14,12 +14,12 @@ export default function ServicesBox() {
                     }}>
                         <div className="row g-0">
                             <div className="col-md-2 nextProvide-icon">
-                                <TbHexagonNumber1 color="blue" size={45} />
+                                <TbHexagonNumber1 color="#02562f" size={45} />
                             </div>
                             <div className="col-md-10">
-                                <div className="card-body">
-                                    <h5 className="card-title">Custom Software Development</h5>
-                                    <p className="card-text">We help you build high-end, technology-driven, and result-oriented solutions that empower you to gain competitive advantages. Our experts and highly skilled developers help you develop and align solutions to your business needs..</p>
+                                <div className="card-body service-card">
+                                    <h5 className="card-title">Mobile Application Development</h5>
+                                    <p className="card-text">We help you develop interactive Native and Hybrid mobile apps for Android and iOS by leveraging technologies such as React Native, Flutter, Kotlin, Swift, and more. Collaborate with us to create engaging mobile applications.</p>
                                 </div>
                             </div>
                         </div>
@@ -33,10 +33,10 @@ export default function ServicesBox() {
                     }}>
                         <div className="row g-0">
                             <div className="col-md-2 nextProvide-icon">
-                                <TbHexagonNumber2 color="blue" size={45} />
+                                <TbHexagonNumber3 color="#02562f" size={45} />
                             </div>
                             <div className="col-md-10">
-                                <div className="card-body">
+                                <div className="card-body service-card">
                                     <h5 className="card-title">Website development</h5>
                                     <p className="card-text">Website development is needed to establish an online presence and provide information about a business, organization, or individual.The basic step for this digital transformation to take place is to get a professional website developed for your business.</p>
                                 </div>
@@ -52,12 +52,32 @@ export default function ServicesBox() {
                     }}>
                         <div className="row g-0">
                             <div className="col-md-2 nextProvide-icon">
-                                <TbHexagonNumber3 color="blue" size={45} />
+                                <TbHexagonNumber2 color="#02562f" size={45} />
                             </div>
                             <div className="col-md-10">
-                                <div className="card-body">
-                                    <h5 className="card-title">Chat Software</h5>
-                                    <p className="card-text">Real-time communication has become very important to engage and retain customers, more so when they are browsing your company website or using its mobile application. This has put a lot of emphasis on the use of robust and secure chat software.</p>
+                                <div className="card-body service-card">
+                                    <h5 className="card-title">Custom Software Development</h5>
+                                    <p className="card-text">We help you build high-end, technology-driven, and result-oriented solutions that empower you to gain competitive advantages. Our experts and highly skilled developers help you develop and align solutions to your business needs.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </motion.div>
+                </div>
+
+                <div className="col">
+                    <motion.div className="card mb-3" whileHover={{
+                        scale: 1.1,
+                        textShadow: '0 0 0 8px rgb(255,255,255)',
+                        boxShadow: '0 0 0 8px rgb(255,255,255)'
+                    }}>
+                        <div className="row g-0">
+                            <div className="col-md-2 nextProvide-icon">
+                                <TbHexagonNumber4 color="#02562f" size={45} />
+                            </div>
+                            <div className="col-md-10">
+                                <div className="card-body service-card">
+                                    <h5 className="card-title">Dedicated Resources</h5>
+                                    <p className="card-text">Dedicated resources refer to a team or individual assigned exclusively to work on a particular project or client. They provide focused attention, specialized skills, and increased productivity, resulting in faster delivery and better outcomes. We provide MEAN, MERN, Android, iOS, Flutter, Node JS, and React JS developers as per your need.</p>
                                 </div>
                             </div>
                         </div>
@@ -71,12 +91,12 @@ export default function ServicesBox() {
                     }}>
                         <div className="row g-0">
                             <div className="col-md-2 nextProvide-icon">
-                                <TbHexagonNumber4 color="blue" size={45} />
+                                <TbHexagonNumber5 color="#02562f" size={45} />
                             </div>
                             <div className="col-md-10">
-                                <div className="card-body">
-                                    <h5 className="card-title">Mobile Application Development</h5>
-                                    <p className="card-text">We help you develop interactive Native and Hybrid mobile apps for Android and iOS by leveraging technologies such as React Native, Flutter, Kotlin, Swift, and more. Collaborate with us to create engaging mobile applications that help redefine customer experiences.</p>
+                                <div className="card-body service-card">
+                                    <h5 className="card-title">UI/UX Design</h5>
+                                    <p className="card-text">UI/UX design is about creating digital products that are easy and enjoyable for people to use. It involves researching what people need, making prototypes, and testing them to make sure they work well and look good. We provide you the best design regarding to your requirements.</p>
                                 </div>
                             </div>
                         </div>
@@ -90,88 +110,12 @@ export default function ServicesBox() {
                     }}>
                         <div className="row g-0">
                             <div className="col-md-2 nextProvide-icon">
-                                <TbHexagonNumber5 color="blue" size={45} />
+                                <TbHexagonNumber6 color="#02562f" size={45} />
                             </div>
                             <div className="col-md-10">
-                                <div className="card-body">
-                                    <h5 className="card-title">CRM</h5>
-                                    <p className="card-text">All businesses that are serving end customers need some form of a Customer Relationship Management (CRM) tool to manage the customer support and sales process effectively. We provide CRM development and integration services for all businesses from startups to enterprises.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </motion.div>
-                </div>
-                <div className="col">
-                    <motion.div className="card mb-3" whileHover={{
-                        scale: 1.1,
-                        textShadow: '0 0 0 8px rgb(255,255,255)',
-                        boxShadow: '0 0 0 8px rgb(255,255,255)'
-                    }}>
-                        <div className="row g-0">
-                            <div className="col-md-2 nextProvide-icon">
-                                <TbHexagonNumber6 color="blue" size={45} />
-                            </div>
-                            <div className="col-md-10">
-                                <div className="card-body">
-                                    <h5 className="card-title">Customized Software</h5>
-                                    <p className="card-text">Many businesses need customized software to manage their operations effectively. These businesses can vary from small departmental stores to large corporations and manufacturing industries. Automation is the need of the hour. Keeping this in mind, we are offering custom software development.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </motion.div>
-                </div>
-                <div className="col">
-                    <motion.div className="card mb-3" whileHover={{
-                        scale: 1.1,
-                        textShadow: '0 0 0 8px rgb(255,255,255)',
-                        boxShadow: '0 0 0 8px rgb(255,255,255)'
-                    }}>
-                        <div className="row g-0">
-                            <div className="col-md-2 nextProvide-icon">
-                                <TbHexagonNumber7 color="blue" size={45} />
-                            </div>
-                            <div className="col-md-10">
-                                <div className="card-body">
-                                    <h5 className="card-title">Security</h5>
-                                    <p className="card-text">Our websites and apps are highly secure and we use the latest encryption techniques to secure the flow of data.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </motion.div>
-                </div>
-                <div className="col">
-                    <motion.div className="card mb-3" whileHover={{
-                        scale: 1.1,
-                        textShadow: '0 0 0 8px rgb(255,255,255)',
-                        boxShadow: '0 0 0 8px rgb(255,255,255)'
-                    }}>
-                        <div className="row g-0">
-                            <div className="col-md-2 nextProvide-icon">
-                                <TbHexagonNumber8 color="blue" size={45} />
-                            </div>
-                            <div className="col-md-10">
-                                <div className="card-body">
-                                    <h5 className="card-title">Security</h5>
-                                    <p className="card-text">Our websites and apps are highly secure and we use the latest encryption techniques to secure the flow of data.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </motion.div>
-                </div>
-                <div className="col">
-                    <motion.div className="card mb-3" whileHover={{
-                        scale: 1.1,
-                        textShadow: '0 0 0 8px rgb(255,255,255)',
-                        boxShadow: '0 0 0 8px rgb(255,255,255)'
-                    }}>
-                        <div className="row g-0">
-                            <div className="col-md-2 nextProvide-icon">
-                                <TbHexagonNumber9 color="blue" size={45} />
-                            </div>
-                            <div className="col-md-10">
-                                <div className="card-body">
-                                    <h5 className="card-title">Security</h5>
-                                    <p className="card-text">Our websites and apps are highly secure and we use the latest encryption techniques to secure the flow of data.</p>
+                                <div className="card-body service-card">
+                                    <h5 className="card-title">SEO</h5>
+                                    <p className="card-text">SEO is the process of optimizing a website to increase its visibility and ranking in search engine results pages. SEO services can include keyword research, on-page optimization, link building, content creation, and more. These services aim to improve website traffic and online visibility for businesses.</p>
                                 </div>
                             </div>
                         </div>

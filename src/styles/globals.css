@@ -787,6 +787,12 @@ border-radius: 50%;
     padding-bottom: 30px;
 }
 
+.footer-btn {
+    color: white;
+    background-color: #02562f;
+    border: none;
+}
+
 .social-link {
     color: pink;
 }
@@ -919,7 +925,8 @@ border-radius: 50%;
 
     #proServices,
     #nextProvide,
-    #business {
+    #business,
+    #devlopement {
         padding: 5% 1%;
     }
 
@@ -955,7 +962,7 @@ border-radius: 50%;
     .dev-img {
         text-align: center;
         justify-content: center;
-        width: 320px;
+        width: 390px;
         height: 200px;
     }
 }

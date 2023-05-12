@@ -5,9 +5,24 @@ import { BsFillTelephoneOutboundFill } from "react-icons/bs";
 import { IoLocationSharp } from "react-icons/io5";
 
 export default function Footer() {
+
+    const handleCallDialerClick = () => {
+        window.location.href = 'tel:+917352817229';
+    };
+
+    const handleCallDialerClick1 = () => {
+        window.location.href = 'tel:+919625715568';
+    };
+
+    const handleEmailAppClick = () => {
+        const emailID = 'info@itconnectindia.com'; // Replace with your email ID
+        const emailURL = `mailto:${emailID}`;
+        window.location.href = emailURL;
+    };
+
     return (
         <footer id="footer" className=" text-lg-start">
-            {/* <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+            { /* <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
                 <div className="me-5 d-none d-lg-block">
                     <span>Get connected with us on social networks:</span>
                 </div>
@@ -90,7 +105,7 @@ export default function Footer() {
                             <Link href="/contact" className="footer-link">Conatct Us</Link>
                         </p>
                         <p>
-                            <Link href="/service" className="footer-link">Services</Link>
+                            <Link href="/services" className="footer-link">Services</Link>
                         </p>
                         <p>
                             <Link href="/portfolio" className="footer-link">Portfolio</Link>
@@ -112,12 +127,19 @@ export default function Footer() {
 
                         <h6 className="text-footer fw-bold mb-4">Contact</h6>
                         <p > <BsFillTelephoneOutboundFill size={20} /> <span className="footerAdr-icon">Phone </span></p>
-                        <p className="footerAdr-p">+ 91-7352817229</p>
-                        <p className="footerAdr-p">+ 91-9625715568</p>
+                        <button className="footer-btn" onClick={handleCallDialerClick}>
+                            <p className="footerAdr-p">+ 91-7352817229</p>
+                        </button>
+                        <button className="footer-btn" onClick={handleCallDialerClick1}>
+                            <p className="footerAdr-p">+ 91-9625715568</p>
+                        </button>
                         <p > <AiFillMail size={25} /> <span className="footerAdr-icon">Email </span>   </p>
-                        <p className="footerAdr-p">
-                            info@itconnectindia.com
-                        </p>
+                        <button className="footer-btn" onClick={handleEmailAppClick}>
+                            <p className="footerAdr-p">
+                                info@itconnectindia.com
+                            </p>
+                        </button>
+
                         <p >
                             <IoLocationSharp size={25} /><span className=" footerAdr-icon">Address </span>
                         </p>
