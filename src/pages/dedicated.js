@@ -3,6 +3,7 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import Hero from './components/Hero'
 import Devlopement from './components/Devlopement'
+import WhatsAppButton from './components/WhatsAppButton'
 
 export default function dedicated() {
     return (
@@ -18,6 +19,7 @@ export default function dedicated() {
                 content='Dedicated resources refer to a team or individual assigned exclusively to work on a particular project or client. They provide focused attention, specialized skills, and increased productivity, resulting in faster delivery and better outcomes. We provide MEAN, MERN, Android, iOS, Flutter, Node JS, and React JS developers as per your need.'
             />
             <Footer />
+            <WhatsAppButton phone="+917352817229" text="Hello, I have a question for you!" />
         </>
     )
 }

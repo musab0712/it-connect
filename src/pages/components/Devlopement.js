@@ -50,7 +50,7 @@ export default function Devlopement({ title, content }) {
             <div className="row">
                 <div className="col">
                     <div className="devlopment-img">
-                        <Image src='/hero-3.jpg' width={6000} height={400} responsive="true" alt='hero image' className="dev-img" />
+                        <Image src='/hero-3.jpg' width={320} height={400} responsive="true" alt='hero image' className="dev-img" />
                     </div>
                     <div className="devlopment-content">
                         <h1>{title}</h1>

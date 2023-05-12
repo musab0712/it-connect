@@ -5,6 +5,7 @@ import ServicesBox from "./components/ServicesBox";
 import Hero from "./components/Hero";
 import Industries from "./components/Industries";
 import HeroOtherSec from "./components/HeroOtherSec";
+import WhatsAppButton from "./components/WhatsAppButton";
 
 export default function Services() {
     return (
@@ -19,6 +20,7 @@ export default function Services() {
             <ServicesBox />
             <div>Services</div>
             <Footer />
+            <WhatsAppButton phone="+917352817229" text="Hello, I have a question for you!" />
         </>
     )
 }

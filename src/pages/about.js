@@ -7,6 +7,7 @@ import Testinomial from "./components/Testinomial";
 import Company from "./components/Company";
 import Business from "./components/Business";
 import HeroOtherSec from "./components/HeroOtherSec";
+import WhatsAppButton from "./components/WhatsAppButton";
 
 export default function About() {
     return (
@@ -22,6 +23,7 @@ export default function About() {
             <Testinomial />
             <Company />
             <Footer />
+            <WhatsAppButton phone="+917352817229" text="Hello, I have a question for you!" />
         </>
     );
 }
