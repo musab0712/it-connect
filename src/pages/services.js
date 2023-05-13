@@ -10,7 +10,7 @@ export default function Services() {
     return (
         <>
             <Head>
-                <title>IT Connect India</title>
+                <title>Services</title>
             </Head>
             <Header />
             <Hero url='/service-img.jpg' />

@@ -12,7 +12,7 @@ export default function About() {
     return (
         <>
             <Head>
-                <title>IT Connect India</title>
+                <title>About Us</title>
             </Head>
             <Header />
             <Hero url='/about-img.png' />

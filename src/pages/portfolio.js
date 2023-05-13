@@ -9,7 +9,7 @@ export default function portfolio() {
     return (
         <>
             <Head>
-                <title>IT Connect India</title>
+                <title>Portfolio</title>
             </Head>
             <Header />
             <Hero url='/portfolio-img.png' />

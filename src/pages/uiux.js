@@ -8,7 +8,7 @@ export default function uiux() {
     return (
         <>
             <Head>
-                <title>IT Connect India</title>
+                <title>UI?UX Design</title>
             </Head>
             <Header />
             <Hero url='/portfolio-img.png' />

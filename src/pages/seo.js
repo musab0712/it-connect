@@ -8,7 +8,7 @@ export default function dedicated() {
     return (
         <>
             <Head>
-                <title>IT Connect India</title>
+                <title>SEO</title>
             </Head>
             <Header />
             <Hero url='/adv-img.png' />

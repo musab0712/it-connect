@@ -8,7 +8,7 @@ export default function webdev() {
     return (
         <>
             <Head>
-                <title>IT Connect India</title>
+                <title>Web Development</title>
             </Head>
             <Header />
             <Hero url='/contact-7.jpeg' />

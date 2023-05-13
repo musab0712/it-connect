@@ -8,7 +8,7 @@ export default function appdev() {
     return (
         <>
             <Head>
-                <title>IT Connect India</title>
+                <title>Mobile Application Development</title>
             </Head>
             <Header />
             <Hero url='/about-img.png' />

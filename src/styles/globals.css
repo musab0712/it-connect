@@ -445,7 +445,8 @@ border-radius: 50%;
 }
 
 .service-card {
-    padding-bottom: 100px;
+    padding-top: 30px;
+    height: 380px;
 }
 
 /* Testinomial sectiomn */
@@ -463,6 +464,7 @@ border-radius: 50%;
 
 .testinomial-card {
     padding: 15% 0%;
+    height: 400px;
 }
 
 .card-img {

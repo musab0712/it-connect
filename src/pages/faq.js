@@ -10,7 +10,7 @@ export default function faq() {
     return (
         <>
             <Head>
-                <title>IT Connect India</title>
+                <title>FAQs</title>
             </Head>
             <Header />
             <Hero url='/contact-7.jpeg' />

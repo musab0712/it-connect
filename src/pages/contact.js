@@ -9,7 +9,7 @@ export default function Contact() {
     return (
         <>
             <Head>
-                <title>IT Connect India</title>
+                <title>Contact Us</title>
             </Head>
             <Header />
             <Hero url='/msg.jpg' />

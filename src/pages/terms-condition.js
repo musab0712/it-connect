@@ -9,7 +9,7 @@ export default function termscondition() {
     return (
         <>
             <Head>
-                <title>IT Connect India</title>
+                <title>Terms and Condition</title>
             </Head>
             <Header />
             <Hero url='/conatct-8.png' />

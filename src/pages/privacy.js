@@ -10,7 +10,7 @@ export default function privacy() {
     return (
         <>
             <Head>
-                <title>IT Connect India</title>
+                <title>Privacy and Policy</title>
             </Head>
             <Header />
             <Hero url='/conatct-8.png' />
