@@ -33,9 +33,9 @@ export default function Provide() {
                                 </div>
                             </div>
                             <div className="col">
-                                <h5> <IoCheckmarkDoneCircle color="purple" /> End-to-end services</h5>
-                                <h5> <IoCheckmarkDoneCircle color="purple" /> Latest technologies</h5>
-                                <h5> <IoCheckmarkDoneCircle color="purple" /> End-to-end services</h5>
+                                <h5> <IoCheckmarkDoneCircle color="purple" /> Multi-technology stack</h5>
+                                <h5> <IoCheckmarkDoneCircle color="purple" /> A dedicated team </h5>
+                                <h5> <IoCheckmarkDoneCircle color="purple" /> Post-deployment support</h5>
                             </div>
                             <div className="col">
                                 <Link href='/contact'><button type="button" className="button">Get Connect</button></Link>
